@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>fortune Teller Game</title>
+	
+</head>
+<body>
+	
+	<img id="first" src="closed.png" alt="closed" class="pictures" style="position:absolute; TOP:50px; LEFT:500px; width:300px;height:400px;">
+
+	<img id="second" src="1256.png" alt="1256" class="pictures" style="display:none; position:absolute; TOP:50px; LEFT:500px; width:300px;height:400px;">
+
+	<img id="third" src="3478.png" alt="3478" class="pictures" style="display:none; position:absolute; TOP:50px; LEFT:500px; width:300px;height:400px;">
+
+	
+	<button id="northWest" class="colors" style="background-color:green; position:absolute; TOP:200px; LEFT:570px" onclick="buttonNw(this)">Green</button>
+	<button id="northEast" class="colors" style="background-color:yellow; position:absolute; TOP:200px; LEFT:690px" onclick="buttonNe(this)">Yellow</button>
+	<button id="SouthWest" class="colors" style="background-color:blue; position:absolute; TOP:320px; LEFT:570px" onclick="buttonSw(this)">Blue</button>
+	<button id="SouthEast" class="colors" style="background-color:red; position:absolute; TOP:320px; LEFT:690px" onclick="buttonSe(this)">Red</button>
+
+	<button id="four" class="numbersOdd" style="display:none; position:absolute; TOP:200px; LEFT:570px" onclick="buttonNwtwo(this)">4</button>
+	<button id="seven" class="numbersOdd" style="display:none; position:absolute; TOP:200px; LEFT:690px" onclick="buttonNetwo(this)">7</button>
+	<button id="three" class="numbersOdd" style="display:none; position:absolute; TOP:320px; LEFT:570px" onclick="buttonSwtwo(this)">3</button>
+	<button id="eight" class="numbersOdd" style="display:none; position:absolute; TOP:320px; LEFT:690px" onclick="buttonSetwo(this)">8</button>
+
+	<button id="five" class="numbersEven" style="display:none; position:absolute; TOP:200px; LEFT:570px" onclick="buttonNwtwotwo(this)">5</button>
+	<button id="six" class="numbersEven" style="display:none; position:absolute; TOP:200px; LEFT:690px" onclick="buttonNetwotwo(this)">6</button>
+	<button id="two" class="numbersEven" style="display:none; position:absolute; TOP:320px; LEFT:570px" onclick="buttonSwtwotwo(this)">2</button>
+	<button id="one" class="numbersEven" style="display:none; position:absolute; TOP:320px; LEFT:690px" onclick="buttonSetwotwo(this)">1</button>
+
+	<button id="fourTwo" class="numbersOddtwo" style="display:none; position:absolute; TOP:200px; LEFT:570px" onclick="buttonNwthree(this)">4</button>
+	<button id="sevenTwo" class="numbersOddtwo" style="display:none; position:absolute; TOP:200px; LEFT:690px" onclick="buttonNethree(this)">7</button>
+	<button id="threeTwo" class="numbersOddtwo" style="display:none; position:absolute; TOP:320px; LEFT:570px" onclick="buttonSwthree(this)">3</button>
+	<button id="eightTwo" class="numbersOddtwo" style="display:none; position:absolute; TOP:320px; LEFT:690px" onclick="buttonSethree(this)">8</button>
+
+	<button id="fiveTwo" class="numbersEventwo" style="display:none; position:absolute; TOP:200px; LEFT:570px" onclick="buttonNwthreethree(this)">5</button>
+	<button id="sixTwo" class="numbersEventwo" style="display:none; position:absolute; TOP:200px; LEFT:690px" onclick="buttonNethreethree(this)">6</button>
+	<button id="twoTwo" class="numbersEventwo" style="display:none; position:absolute; TOP:320px; LEFT:570px" onclick="buttonSwthreethree(this)">2</button>
+	<button id="oneTwo" class="numbersEventwo" style="display:none; position:absolute; TOP:320px; LEFT:690px" onclick="buttonSethreethree(this)">1</button>
+
+	<p id="fortune" style="font-size:100%; position:absolute; TOP:10px; LEFT:350px">  </p>
+	
+	<script src="fortuneJavascript3.js"></script>
+		
+</body>
+</html>
+	
